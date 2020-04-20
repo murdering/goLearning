@@ -1,4 +1,4 @@
-package main
+package basis.collection
 
 import (
 	"io"

@@ -1,4 +1,4 @@
-package main
+package basis.map
 
 import "fmt"
 
