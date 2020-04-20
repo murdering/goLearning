@@ -1,4 +1,4 @@
-package basis.func
+package basis
 
 import "fmt"
 

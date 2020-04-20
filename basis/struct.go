@@ -1,4 +1,4 @@
-package basis.struct
+package basis
 
 import "fmt"
 

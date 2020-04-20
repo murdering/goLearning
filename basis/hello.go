@@ -1,4 +1,4 @@
-package basis.hello
+package basis
 
 import "fmt"
 

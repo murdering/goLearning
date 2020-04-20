@@ -1,4 +1,4 @@
-package basis.channel
+package basis
 
 import "fmt"
 

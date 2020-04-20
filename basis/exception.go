@@ -1,4 +1,4 @@
-package basis.exception
+package basis
 
 import (
 	"fmt"

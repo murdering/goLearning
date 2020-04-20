@@ -1,4 +1,4 @@
-package basis.interface
+package basis
 
 import "fmt"
 
