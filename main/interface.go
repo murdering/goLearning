@@ -1,4 +1,4 @@
-package basis
+package main
 
 import "fmt"
 
@@ -31,6 +31,12 @@ func main() {
 
 	//e:=x.(error)           // 错误:main.data is not error
 	//fmt.Println(e)
+
+	persons := []person{man{}, man{}}
+
+	for _, person := range persons {
+		person.run()
+	}
 }
 
 type Animal interface {
@@ -68,4 +74,15 @@ type data int
 
 func (d data) String() string {
 	return fmt.Sprintf("data:%d", d)
+}
+
+type person interface {
+	run()
+}
+
+type man struct {
+}
+
+func (m man) run() {
+	println("man is running")
 }
