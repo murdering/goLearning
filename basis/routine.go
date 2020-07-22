@@ -14,6 +14,7 @@ func say(s string) {
 }
 
 func main() {
+
 	/*
 		go say("world")
 		say("hello")
@@ -25,9 +26,9 @@ func main() {
 	// 创建producer()函数的并发goroutine
 	go producer("cat", channel)
 	go producer("dog", channel)
+	go producer("cow", channel)
 	// 数据消费函数
 	customer(channel)
-
 }
 
 // 数据生产者
