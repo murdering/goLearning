@@ -5,6 +5,7 @@ import (
 	"testing"
 )
 
+// 菲波拉切数列
 func TestFiboList(t *testing.T) {
 	var a = 1 // 第一种赋值方式
 	var b = 1
@@ -23,4 +24,17 @@ func TestFiboList(t *testing.T) {
 		a = b
 		b = a + temp
 	}
+}
+
+// 交换参数
+func TestExchangeVariables(t *testing.T) {
+	var a = 1
+	var b = 2
+	/*
+		var temp = a
+		a = b
+		b = temp
+	*/
+	a, b = b, a
+	t.Log(a, b)
 }
