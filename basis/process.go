@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	whileTry()
+	// endlessWhile()
 	// a := 6
 	if a := 5; a < 1 {
 		fmt.Println("OK", a)
@@ -45,5 +47,21 @@ HERE:
 	i++
 	if i < 10 {
 		goto HERE
+	}
+}
+
+func whileTry() {
+	// 等同于 while(n<5)
+	var n = 0
+	for n < 5 {
+		n++
+		fmt.Print(" ", n)
+	}
+}
+
+func endlessWhile() {
+	// 等同于 while(true)
+	for {
+		fmt.Println("无限循环！")
 	}
 }
