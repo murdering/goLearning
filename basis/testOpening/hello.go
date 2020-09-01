@@ -1,4 +1,4 @@
-package main
+package testOpening
 
 import (
 	"fmt"
