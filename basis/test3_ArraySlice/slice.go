@@ -1,4 +1,4 @@
-package ArrayTest
+package ArraySliceTest
 
 import (
 	"fmt"

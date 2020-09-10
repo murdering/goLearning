@@ -1,4 +1,4 @@
-package testOpening
+package test1_Opening
 
 import (
 	"fmt"

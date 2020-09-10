@@ -1,4 +1,4 @@
-package testCondition
+package test2_Condition
 
 import "testing"
 
